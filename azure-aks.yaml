@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: myacrreg0215.azurecr.io/rrnlab/Python-Project
+        image: myacrrepo01.azurecr.io/myacrrepo01:#{Build.BuildId}#
         ports:
         - containerPort: 5050
 # service type loadbalancer       
